@@ -1,14 +1,14 @@
 Squirrel Scalar Types
 =====================
 
-[![Build Status](https://img.shields.io/travis/com/squirrelphp/scalar_types.svg)](https://travis-ci.com/squirrelphp/scalar_types) [![Test Coverage](https://api.codeclimate.com/v1/badges/24a5dad790d20148e10a/test_coverage)](https://codeclimate.com/github/squirrelphp/scalar_types/test_coverage) ![PHPStan](https://img.shields.io/badge/style-level%209-success.svg?style=flat-round&label=phpstan) [![Packagist Version](https://img.shields.io/packagist/v/squirrelphp/scalar_types.svg?style=flat-round)](https://packagist.org/packages/squirrelphp/scalar_types) [![PHP Version](https://img.shields.io/packagist/php-v/squirrelphp/scalar_types.svg)](https://packagist.org/packages/squirrelphp/scalar_types) [![Software License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-round)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/squirrelphp/scalar-types.svg?style=flat-round)](https://packagist.org/packages/squirrelphp/scalar-types) [![PHP Version](https://img.shields.io/packagist/php-v/squirrelphp/scalar-types.svg)](https://packagist.org/packages/squirrelphp/scalar-types) [![Software License](https://img.shields.io/badge/license-MIT-success.svg?style=flat-round)](LICENSE)
 
 Make the coercive mode and strict mode behavior of PHP accessible explicitly via functions: Includes coercions and is_coerceable checks that work like the implicit scalar type coercions in PHP, and an easy way to enforce a specific scalar type mimicking the behavior of strict mode in PHP.
 
 Installation
 ------------
 
-    composer require squirrelphp/scalar_types
+    composer require squirrelphp/scalar-types
 
 Table of contents
 -----------------
