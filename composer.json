@@ -1,5 +1,5 @@
 {
-    "name": "squirrelphp/scalar_types",
+    "name": "squirrelphp/scalar-types",
     "type": "library",
     "description": "Make the coercive mode and strict mode behavior of PHP accessible explicitly via functions.",
     "keywords": [
@@ -7,7 +7,7 @@
         "coercions",
         "scalar"
     ],
-    "homepage": "https://github.com/squirrelphp/scalar_types",
+    "homepage": "https://github.com/squirrelphp/scalar-types",
     "license": "MIT",
     "authors": [
         {
