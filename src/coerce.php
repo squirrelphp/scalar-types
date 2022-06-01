@@ -1,7 +1,9 @@
 <?php
 
 if (!function_exists('coerce_to_int')) {
-    /** @param mixed $value */
+    /**
+     * @param mixed $value
+     */
     function coerce_to_int($value): int
     {
         if (!is_scalar($value)) {
@@ -26,7 +28,10 @@ if (!function_exists('coerce_to_int')) {
 }
 
 if (!function_exists('coerce_to_float')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function coerce_to_float($value): float
     {
         if (!is_scalar($value)) {
@@ -47,7 +52,9 @@ if (!function_exists('coerce_to_float')) {
 }
 
 if (!function_exists('coerce_to_bool')) {
-    /** @param mixed $value */
+    /**
+     * @param mixed $value
+     */
     function coerce_to_bool($value): bool
     {
         if (!is_scalar($value)) {
@@ -84,7 +91,10 @@ if (!function_exists('coerce_to_bool')) {
 }
 
 if (!function_exists('coerce_to_string')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function coerce_to_string($value): string
     {
         if (is_object($value) && method_exists($value, '__toString')) {
@@ -100,7 +110,10 @@ if (!function_exists('coerce_to_string')) {
 }
 
 if (!function_exists('is_coerceable_to_int')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function is_coerceable_to_int($value): bool
     {
         if (!is_scalar($value)) {
@@ -124,7 +137,10 @@ if (!function_exists('is_coerceable_to_int')) {
 }
 
 if (!function_exists('is_coerceable_to_float')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function is_coerceable_to_float($value): bool
     {
         if (!is_scalar($value)) {
@@ -144,7 +160,10 @@ if (!function_exists('is_coerceable_to_float')) {
 }
 
 if (!function_exists('is_coerceable_to_bool')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function is_coerceable_to_bool($value): bool
     {
         if (!is_scalar($value)) {
@@ -181,7 +200,10 @@ if (!function_exists('is_coerceable_to_bool')) {
 }
 
 if (!function_exists('is_coerceable_to_string')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function is_coerceable_to_string($value): bool
     {
         if (is_object($value) && method_exists($value, '__toString')) {

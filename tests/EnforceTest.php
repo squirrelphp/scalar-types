@@ -3,7 +3,6 @@
 namespace Squirrel\Coercions\Tests;
 
 use TypeError;
-use UnexpectedValueException;
 
 class EnforceTest extends \PHPUnit\Framework\TestCase
 {

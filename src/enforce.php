@@ -1,7 +1,10 @@
 <?php
 
 if (!function_exists('enforce_int')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function enforce_int($value): int
     {
         if (!is_int($value)) {
@@ -13,7 +16,10 @@ if (!function_exists('enforce_int')) {
 }
 
 if (!function_exists('enforce_float')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function enforce_float($value): float
     {
         if (!is_int($value) && !is_float($value)) {
@@ -25,7 +31,10 @@ if (!function_exists('enforce_float')) {
 }
 
 if (!function_exists('enforce_bool')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function enforce_bool($value): bool
     {
         if (!is_bool($value)) {
@@ -37,7 +46,10 @@ if (!function_exists('enforce_bool')) {
 }
 
 if (!function_exists('enforce_string')) {
-    /** @param mixed $value */
+    /**
+     * @pure
+     * @param mixed $value
+     */
     function enforce_string($value): string
     {
         if (!is_string($value)) {
